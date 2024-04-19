@@ -14,14 +14,41 @@ class General
         $this->vote = $vote;
     }
 
-    // public function getTitle()
-    // {
-    //     echo $this->title;
-    // }
+    // For the title
+    public function getTitle()
+    {
+        return $this->title;
+    }
+    public function setTitle($title)
+    {
+        $this->title = $title;
+    }
 
-    // $italy->title = "Italia";
-    // $italy->language = "Italiano";
-    // $italy->vote = "9";
+
+    // For the Language
+    public function getLanguage()
+    {
+        return $this->language;
+    }
+
+    public function setLanguage($language)
+    {
+        $this->language = $language;
+    }
+
+    // For the Vote
+
+    public function getVote()
+    {
+        return $this->vote;
+    }
+
+    public function setVote($vote)
+    {
+        $this->vote = $vote;
+    }
+
+
 }
 
 
