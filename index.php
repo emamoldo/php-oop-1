@@ -5,7 +5,7 @@ require_once __DIR__ . "/Models/TvSeries.php";
 
 
 
-$usa = new General("Matrix", "English", 8, );
+$usa = new General("Matrix", "English", 8.7);
 $italy = new General("Tre Uomini e Una Gamba", "Italiano", 9);
 
 
@@ -26,13 +26,17 @@ $italy = new General("Tre Uomini e Una Gamba", "Italiano", 9);
 <body>
     <h1>Movies and Tv Series</h1>
 
-    <h3><?= $italy->getTitle(); ?></h3>
-    <p>Language: <?= $italy->getLanguage(); ?></p>
-    <p>Vote: <?= $italy->getVote(); ?></p>
-
+    <h1>Movie:</h1>
     <h3><?= $usa->getTitle(); ?></h3>
     <p>Language: <?= $usa->getLanguage(); ?></p>
     <p>Vote: <?= $usa->getVote(); ?></p>
+    <p>Profits: <?= $movieProfits->profits ?></p>
+    <p>Duration: <?= $movieDuration->duration ?></p>
+
+    <br>
+    <hr>
+    <br>
+
 </body>
 
 </html>
