@@ -10,7 +10,7 @@ class Profits extends General
     }
 }
 
-$movieProfits = new Profits('Matrix', 'EN', 9, "281 Milions");
+$movieProfits = new Profits('Matrix', 'En', 8.7, "281 Milions");
 // var_dump($movieProfits);
 
 class Duration extends Profits
@@ -24,7 +24,5 @@ class Duration extends Profits
     }
 }
 
-$movieDuration = new Duration('Matrix', 'EN', 9, "281 Milions", "136 minuts");
+$movieDuration = new Duration('Matrix', 'En', 8.7, "281 Milions", "136 minuts");
 // var_dump($movieDuration);
-
-// TODO: let the new class use the old title, language and vote;

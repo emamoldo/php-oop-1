@@ -11,4 +11,4 @@ class Seasons extends Duration
 }
 
 $seriesSeasons = new Seasons('Breaking Bad', 'En', 9.5, "80 Milions", "62 Episodes", 5);
-var_dump($seriesSeasons);
+// var_dump($seriesSeasons);
