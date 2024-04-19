@@ -23,36 +23,22 @@ class General
     {
         $this->title = $title;
     }
-
-
     // For the Language
     public function getLanguage()
     {
         return $this->language;
     }
-
     public function setLanguage($language)
     {
         $this->language = $language;
     }
-
     // For the Vote
-
     public function getVote()
     {
         return $this->vote;
     }
-
     public function setVote($vote)
     {
         $this->vote = $vote;
     }
-
-
 }
-
-
-
-
-
-
