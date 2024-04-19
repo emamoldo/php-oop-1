@@ -13,13 +13,13 @@ class Profits extends General
 $movieProfits = new Profits('Matrix', 'EN', 9, "281 Milions");
 // var_dump($movieProfits);
 
-class Duration extends General
+class Duration extends Profits
 {
     public $duration;
 
     public function __construct($title, $language, $vote, $profits, $duration)
     {
-        parent::__construct($title, $language, $vote, );
+        parent::__construct($title, $language, $vote, $profits);
         $this->duration = $duration;
     }
 }
