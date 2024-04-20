@@ -32,8 +32,6 @@ require_once __DIR__ . "/Models/TvSeries.php";
     <h3><?= $seriesSeasons->getTitle(); ?></h3>
     <p>Language: <?= $seriesSeasons->getLanguage(); ?></p>
     <p>Vote: <?= $seriesSeasons->getVote(); ?></p>
-    <p>Profits: <?= $seriesSeasons->profits ?></p>
-    <p>Episodes: <?= $seriesSeasons->duration ?></p>
     <p>Seasons: <?= $seriesSeasons->seasons ?></p>
 
 </body>

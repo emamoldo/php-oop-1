@@ -1,14 +1,14 @@
 <?php
-class Seasons extends Duration
+class Seasons extends Production
 {
     public $seasons;
 
-    public function __construct($title, $language, $vote, $profits, $duration, $seasons)
+    public function __construct($title, $language, $vote, $seasons)
     {
-        parent::__construct($title, $language, $vote, $profits, $duration);
+        parent::__construct($title, $language, $vote);
         $this->seasons = $seasons;
     }
 }
 
-$seriesSeasons = new Seasons('Breaking Bad', 'En', 9.5, "80 Milions", "62 Episodes", 5);
+$seriesSeasons = new Seasons('Breaking Bad', 'En', 9.5, 5);
 // var_dump($seriesSeasons);

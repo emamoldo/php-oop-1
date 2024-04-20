@@ -1,5 +1,5 @@
 <?php
-class Profits extends General
+class Profits extends Production
 {
     public $profits;
 
